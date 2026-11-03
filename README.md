@@ -1,2 +1,2 @@
 # chetam-cafe
-Cafe for vibe and chilling
+Cafe for vibe and chill
