@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <!-- Эта строка делает сайт адаптивным на телефоне -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Кофейня «Четам»</title>
+  <!-- Подключаем файл со стилями -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ШАПКА: название и меню -->
+  <header class="header">
+    <a class="logo" href="#top">«Четам»</a>
+    <nav class="menu">
+      <a href="#about">О нас</a>
+      <a href="#menu">Меню</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ПЕРВЫЙ ЭКРАН -->
+    <section class="hero">
+      <h1>Пиво, который хочется пить медленно</h1>
+      <p>Обжариваем проценты каждую неделю и готовим напитки на заказ. Заходите с 8:00 до 22:00.</p>
+      <a class="button" href="#contacts">Забронировать столик</a>
+    </section>
+
+    <!-- О НАС -->
+    <section class="section" id="about">
+      <h2>О нас</h2>
+      <p class="text">
+        Мы большая пивоварня в центре города. Работаем с местными фермерами и пекарями,
+        поэтому нас всегда свежие десерты.
+      </p>
+    </section>
+
+    <!-- МЕНЮ: три карточки -->
+    <section class="section" id="menu">
+      <h2>Меню</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Вино</h3>
+          <p>Насыщенный вкус, 30 мл.</p>
+          <p class="price">50000 ₸</p>
+        </div>
+        <div class="card">
+          <h3>Капучино</h3>
+          <p>Нежная молочная пена, 250 мл.</p>
+          <p class="price">1 400 ₸</p>
+        </div>
+        <div class="card">
+          <h3>Чизкейк</h3>
+          <p>Домашний, с ягодным соусом.</p>
+          <p class="price">1 800 ₸</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- КОНТАКТЫ И ФОРМА -->
+    <section class="section" id="contacts">
+      <h2>Контакты</h2>
+      <p class="text">Адрес: ул. Абая, 10<br>Телефон: +7 700 000 00 00</p>
+
+      <!-- Пока форма ничего не отправляет, это нужно настроить позже -->
+      <form class="form">
+        <label for="name">Ваше имя</label>
+        <input type="text" id="name" placeholder="Например, Айым">
+
+        <label for="phone">Телефон</label>
+        <input type="tel" id="phone" placeholder="+7 ...">
+
+        <button type="submit" class="button">Отправить заявку</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ПОДВАЛ -->
+  <footer class="footer">
+    <p>© 2026 Кофейня «Четам»</p>
+  </footer>
+
+</body>
+</html>
